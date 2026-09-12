@@ -1,0 +1,89 @@
+{
+  "guildIds": [
+    "1517567167451627555",
+    "1547519851738955777",
+    "1547520127317315618"
+  ],
+  "staffUserIds": [],
+  "blacklists": {},
+  "permanentNoPrefixUserIds": [],
+  "trials": {},
+  "stats": {
+    "user-A": {
+      "userId": "user-A",
+      "gamesPlayed": 1,
+      "wins": 1,
+      "currentStreak": 1,
+      "bestStreak": 1,
+      "fastestTimeMs": 4
+    },
+    "1202851653011636268": {
+      "userId": "1202851653011636268",
+      "gamesPlayed": 3,
+      "wins": 2,
+      "currentStreak": 2,
+      "bestStreak": 2,
+      "fastestTimeMs": 8274
+    },
+    "user-player-1": {
+      "userId": "user-player-1",
+      "gamesPlayed": 1,
+      "wins": 0,
+      "currentStreak": 0,
+      "bestStreak": 0,
+      "fastestTimeMs": 0
+    },
+    "player-1": {
+      "userId": "player-1",
+      "gamesPlayed": 1,
+      "wins": 0,
+      "currentStreak": 0,
+      "bestStreak": 0,
+      "fastestTimeMs": 0
+    },
+    "player-2": {
+      "userId": "player-2",
+      "gamesPlayed": 1,
+      "wins": 0,
+      "currentStreak": 0,
+      "bestStreak": 0,
+      "fastestTimeMs": 0
+    },
+    "player-3": {
+      "userId": "player-3",
+      "gamesPlayed": 1,
+      "wins": 0,
+      "currentStreak": 0,
+      "bestStreak": 0,
+      "fastestTimeMs": 0
+    },
+    "player-4": {
+      "userId": "player-4",
+      "gamesPlayed": 1,
+      "wins": 0,
+      "currentStreak": 0,
+      "bestStreak": 0,
+      "fastestTimeMs": 0
+    },
+    "player-5": {
+      "userId": "player-5",
+      "gamesPlayed": 1,
+      "wins": 0,
+      "currentStreak": 0,
+      "bestStreak": 0,
+      "fastestTimeMs": 0
+    },
+    "player-7": {
+      "userId": "player-7",
+      "gamesPlayed": 1,
+      "wins": 1,
+      "currentStreak": 1,
+      "bestStreak": 1,
+      "fastestTimeMs": 2
+    }
+  },
+  "presence": {
+    "activityText": "Launching Soon",
+    "status": "online"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Numo",
+  "description": "A modern, high-performance Discord bot featuring the Number Hunt game engine, tiered permissions, and Components V2 responses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
