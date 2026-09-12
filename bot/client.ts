@@ -187,6 +187,23 @@ export function getDiscordClient(): Client {
 }
 
 export async function startBot() {
+  // Prevent duplicate bot instances when running inside the Google AI Studio container
+  // or whenever DISABLE_DISCORD_GATEWAY=true is set.
+  // This guarantees that only your external hosting connects to the Discord gateway.
+  const isAiStudioEnv =
+    process.env.DISABLE_DISCORD_GATEWAY === 'true' ||
+    Boolean(process.env.AIS_ENVIRONMENT) ||
+    Boolean(process.env.K_SERVICE && process.env.K_REVISION && process.env.K_SERVICE.includes('ais-dev'));
+
+  if (isAiStudioEnv) {
+    console.log('------------------------------------------------------------');
+    console.log('[Numo Bot] AI Studio preview environment detected.');
+    console.log('[Numo Bot] Discord Gateway connection is DISABLED here.');
+    console.log('[Numo Bot] Only your external hosting service will run the bot.');
+    console.log('------------------------------------------------------------');
+    return;
+  }
+
   if (!config.token) {
     console.log('------------------------------------------------------------');
     console.log('[Numo] DISCORD_TOKEN is not configured.');
